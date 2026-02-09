@@ -6,9 +6,9 @@ permalink: /blog/
 
 <nav>
   <ul>
-    <li><a href="/me/">Home</a></li>
-    <li><a href="/me/blog/">Blog</a></li>
-    <li><a href="/me/about/">About</a></li>
+    <li><a href="/personal-website/">Home</a></li>
+    <li><a href="/personal-website/blog/">Blog</a></li>
+    <li><a href="/personal-website/about/">About</a></li>
   </ul>
 </nav>
 

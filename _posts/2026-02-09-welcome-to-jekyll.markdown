@@ -7,9 +7,9 @@ categories: jekyll update
 
 <nav>
   <ul>
-    <li><a href="/me/">Home</a></li>
-    <li><a href="/me/blog/">Blog</a></li>
-    <li><a href="/me/about/">About</a></li>
+    <li><a href="/personal-website/">Home</a></li>
+    <li><a href="/personal-website/blog/">Blog</a></li>
+    <li><a href="/personal-website/about/">About</a></li>
   </ul>
 </nav>
 
@@ -43,4 +43,4 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 ---
 
-[← Back to Blog](/me/blog/)
+[← Back to Blog](/personal-website/blog/)

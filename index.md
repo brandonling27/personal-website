@@ -5,9 +5,9 @@ title: Home
 
 <nav>
   <ul>
-    <li><a href="/me/">Home</a></li>
-    <li><a href="/me/blog/">Blog</a></li>
-    <li><a href="/me/about/">About</a></li>
+    <li><a href="/personal-website/">Home</a></li>
+    <li><a href="/personal-website/blog/">Blog</a></li>
+    <li><a href="/personal-website/about/">About</a></li>
   </ul>
 </nav>
 
@@ -30,12 +30,12 @@ I'm passionate about technology, software development, and continuous learning. 
   {% endfor %}
 </ul>
 
-[View all posts →](/me/blog/)
+[View all posts →](/personal-website/blog/)
 
 ## Quick Links
 
-- [About Me](/me/about/) - Learn more about who I am
-- [Blog](/me/blog/) - Read my latest thoughts and articles
+- [About Me](/personal-website/about/) - Learn more about who I am
+- [Blog](/personal-website/blog/) - Read my latest thoughts and articles
 - [GitHub](https://github.com/brandonling27) - Check out my code
 
 ---
