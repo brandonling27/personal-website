@@ -4,32 +4,16 @@ title: Blog
 permalink: /blog/
 ---
 
-<nav>
-  <ul>
-    <li><a href="/personal-website/">Home</a></li>
-    <li><a href="/personal-website/blog/">Blog</a></li>
-    <li><a href="/personal-website/about/">About</a></li>
-  </ul>
-</nav>
-
 # Blog
 
-Welcome to my blog! Here I share my thoughts, learnings, and experiences on various topics related to software development, technology, and more.
-
----
-
+<ul class="post-list">
 {% for post in site.posts %}
-## [{{ post.title }}]({{ post.url | relative_url }})
-
-**{{ post.date | date: "%B %d, %Y" }}**
-
-{{ post.excerpt }}
-
-[Read more →]({{ post.url | relative_url }})
-
----
-
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+  </li>
 {% endfor %}
+</ul>
 
 {% if site.posts.size == 0 %}
 _No posts yet. Check back soon!_

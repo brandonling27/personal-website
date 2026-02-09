@@ -1,17 +1,9 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
-date:   2026-02-09 14:05:57 -0500
+title: "Welcome to Jekyll!"
+date: 2026-02-09 14:05:57 -0500
 categories: jekyll update
 ---
-
-<nav>
-  <ul>
-    <li><a href="/personal-website/">Home</a></li>
-    <li><a href="/personal-website/blog/">Blog</a></li>
-    <li><a href="/personal-website/about/">About</a></li>
-  </ul>
-</nav>
 
 # {{ page.title }}
 
@@ -27,20 +19,14 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
+```ruby
 def print_hi(name)
   puts "Hi, #{name}"
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Check out the [Jekyll docs](https://jekyllrb.com/docs/home) for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo](https://github.com/jekyll/jekyll). If you have questions, you can ask them on [Jekyll Talk](https://talk.jekyllrb.com/).
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
----
-
-[← Back to Blog](/personal-website/blog/)
+[← Back to Blog]({{ '/blog/' | relative_url }})
