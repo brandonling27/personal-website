@@ -18,20 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Brandon Ling Personal Website
+title: Brandon Ling
 email: brandonling27@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+  I am a software engineer in the ad tech industry who enjoys working with others to solve problems. Outside of work, you will usually find me reading, meeting new people, or hanging out with our family dog. I have run three marathons, love skiing, and am currently learning French.
+baseurl: "/personal-website" # the subpath of your site, e.g. /blog
 url: "https://brandonling27.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  brandonling27
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/merlot@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
